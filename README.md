@@ -1,4 +1,4 @@
-TO RUN THE CODE EASILY PLEASER RUN IT AT :https://colab.research.google.com/drive/1A49CYe41S55z8qYimu0LKyIrccxSD7yn#scrollTo=QrfQYAoeHB8Z
+TO RUN THE CODE EASILY PLEASE RUN IT AT :https://colab.research.google.com/drive/1A49CYe41S55z8qYimu0LKyIrccxSD7yn#scrollTo=QrfQYAoeHB8Z
 
 This is a group project i did in my school where i focused on doing the Exploratory Data Analysis and Random Forest Classifier sections 
 
