@@ -1,6 +1,21 @@
-TO RUN THE CODE EASILY PLEASE RUN IT AT :https://colab.research.google.com/drive/1A49CYe41S55z8qYimu0LKyIrccxSD7yn#scrollTo=QrfQYAoeHB8Z
 
-This is a group project i did in my school where i focused on doing the Exploratory Data Analysis and Random Forest Classifier sections, PLEASE scroll to the bottom of IE0005_Mini_Project (2).ipynb file to see the finalised graph and results
+# Heart Disease Risk Factors: China vs USA
+
+An NTU IE0005 group data science project investigating differences in heart disease risk factors between Chinese and US datasets.
+
+**My contributions:** Exploratory Data Analysis (EDA) and Random Forest Classifier implementation.
+
+**Technologies:** Python, Pandas, Matplotlib, scikit-learn, Jupyter Notebook, Google Colab.
+
+**Key work:**
+- Explored and visualized relationships between health indicators and heart disease.
+- Implemented Random Forest classifiers to compare feature importance across the Chinese and US datasets.
+- Generated comparative visualizations to interpret differences in predictive factors.
+
+**Key finding:** Diabetes had the highest Random Forest feature importance in the US model (0.4129), while sex ranked highest in the China model (0.1751), narrowly ahead of diabetes (0.1735).
+
+**Run the notebook:** [Open in Google Colab](https://colab.research.google.com/drive/1A49CYe41S55z8qYimu0LKyIrccxSD7yn)
+
 
 Dataset 1: Chinese data
 
