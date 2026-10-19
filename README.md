@@ -1,3 +1,7 @@
+TO RUN THE CODE EASILY PLEASER RUN IT AT :https://colab.research.google.com/drive/1A49CYe41S55z8qYimu0LKyIrccxSD7yn#scrollTo=QrfQYAoeHB8Z
+
+This is a group project i did in my school where i focused on doing the Exploratory Data Analysis and Random Forest Classifier sections 
+
 Dataset 1: Chinese data
 
 Dataset 2: CDC BRFSS Data
@@ -24,4 +28,6 @@ The numerical data and so are already labelled from Kaggle. Kaggle itself provid
 The cell below creates:
 
 us_data, a pandas.DataFrame of the CDC BRISS 2021 data
-cn_data, a pandas.DataFrame of the Chinese dat
+cn_data, a pandas.DataFrame of the Chinese data
+
+
