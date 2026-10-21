@@ -66,8 +66,6 @@ Cramér's V measures association, not causation, and low pairwise associations d
 
 ### 2. Logistic Regression — Age and Heart Disease Log-Odds
 
-![Age vs Heart Disease Log-Odds]
-
 <img width="579" height="433" alt="image" src="https://github.com/user-attachments/assets/973ab0f7-c916-4984-9a6d-f904e59d294a" />
 This visualization compares observed heart disease log-odds across age groups in the US and Chinese datasets.
 
