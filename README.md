@@ -1,12 +1,11 @@
 
 # Heart Disease Risk Factors: China vs USA
 
-An NTU IE0005 group data science project investigating differences in heart disease risk factors between Chinese and US datasets.
+An NTU IE0005 group Data Science and Machine Learning project investigating differences in heart disease risk factors between Chinese and US datasets.
 
-**My contributions:** Exploratory Data Analysis (EDA) and Random Forest Classifier implementation.
+**My contributions:** Designing the Exploratory Data Analysis (EDA) andmaking use of Random Forest Classifier implementation.
 
 **Technologies:** Python, Pandas, Matplotlib, scikit-learn, Jupyter Notebook, Google Colab.
-
 
 **Key work:**
 - Explored and visualized relationships between health indicators and heart disease.
@@ -14,23 +13,39 @@ An NTU IE0005 group data science project investigating differences in heart dise
 - Generated comparative visualizations to interpret differences in predictive factors.
 
 **Key finding:** Diabetes had the highest Random Forest feature importance in the US model (0.4129), while sex ranked highest in the China model (0.1751), narrowly ahead of diabetes (0.1735).
+- **USA:** Diabetes had the highest feature importance (0.4129), followed by smoking status (0.1868).
+- **China:** Sex had the highest feature importance (0.1751), closely followed by diabetes (0.1735) and obesity (0.1704).
+- Feature importance scores were more evenly distributed in the Chinese model than in the US model.
 
+These results describe how the fitted models used the available variables. They do not establish causal relationships or clinical risk factors.
 **Run the notebook:** "Scroll down all the way to see the results and conclusion" [Open in Google Colab](https://colab.research.google.com/drive/1A49CYe41S55z8qYimu0LKyIrccxSD7yn)
 
+Datasets
 
-Dataset 1: Chinese data
+This project uses two publicly available datasets:
 
-Dataset 2: CDC BRFSS Data
+USA: Cardiovascular Diseases Risk Prediction Dataset
 
-Problem:
-Which variable has the strongest influence on the risk of heart disease of a person for both countries(USA, CN)?
+China: Heart Attack Risk Dataset of China
 
-Does it make sense to apply machine learning?
-Yes, because:
+The datasets were preprocessed to align selected variables, including diabetes, smoking, exercise, obesity, sex and alcohol consumption.
 
-The likelihood of having heart disease is largely determined by factors such as age, exercise, smoking, alcohol use, and other health indicators.
-Individuals with similar lifestyle and health profiles should have similar risks of heart disease.
-Individuals with very different habits or health conditions should have different risks of heart disease.
+Important: The datasets use different outcome definitions. Comparisons are exploratory and should not be interpreted as direct measurements of differences between national populations.
+
+Methodology
+
+The project follows a data science workflow:
+
+Data collection: Imported the two datasets using KaggleHub.
+
+Data preprocessing: Standardized selected categorical variables and aligned common features.
+
+Exploratory data analysis: Examined relationships using Cramér's V, variance inflation factors (VIF) and age-related log-odds visualizations.
+
+Statistical modelling: Applied logistic regression with interaction terms to investigate differences between datasets.
+
+Machine learning: Trained separate Random Forest classifiers and compared feature importance scores.
+
 
 
 ## Data Analysis & Visualizations
@@ -39,7 +54,8 @@ Individuals with very different habits or health conditions should have differen
 ### 1. Exploratory Data Analysis — Cramér's V
 
 ![China Cramér's V Heatmap]
-<img width="1092" height="188" alt="image" src="https://github.com/user-attachments/assets/37aba5ae-f33e-4c3d-aa8e-e8e62774eaf4" />
+<img width="900" height="817" alt="image" src="https://github.com/user-attachments/assets/db311823-b2dd-47e5-b796-2ea993902ba0" />
+
 
 
 This heatmap visualizes the strength of association between categorical variables in the Chinese dataset using Cramér's V.
@@ -64,17 +80,10 @@ The contrasting patterns raise questions about differences in dataset constructi
 As part of exploratory analysis, we also investigated logistic regression assumptions, including binary outcomes, multicollinearity and the relationship between continuous predictors and log-odds.
 
 ### 3. Random Forest — Feature Importance Comparison
-
-![Random Forest Feature Importance]=<img width="889" height="590" alt="image" src="https://github.com/user-attachments/assets/48995fa0-89bd-4295-9933-a9ce60bc9b1e" />
+<img width="889" height="590" alt="Random Forest feature importance comparison" src="https://github.com/user-attachments/assets/48995fa0-89bd-4295-9933-a9ce60bc9b1e" />
 
 Separate Random Forest classifiers were trained on the Chinese and US datasets to compare the relative importance of common predictors.
 
-**Key findings:**
-- **USA:** Diabetes had the highest feature importance (0.4129), followed by smoking status (0.1868).
-- **China:** Sex had the highest feature importance (0.1751), closely followed by diabetes (0.1735) and obesity (0.1704).
-- Feature importance scores were more evenly distributed in the Chinese model than in the US model.
-
-These results describe how the fitted models used the available variables. They do not establish causal relationships or clinical risk factors.
 
 ### Limitations
 
