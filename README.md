@@ -7,6 +7,12 @@ An NTU IE0005 group data science project investigating differences in heart dise
 
 **Technologies:** Python, Pandas, Matplotlib, scikit-learn, Jupyter Notebook, Google Colab.
 
+
+<img width="1092" height="188" alt="image" src="https://github.com/user-attachments/assets/37aba5ae-f33e-4c3d-aa8e-e8e62774eaf4" />
+<img width="579" height="433" alt="image" src="https://github.com/user-attachments/assets/973ab0f7-c916-4984-9a6d-f904e59d294a" />
+<img width="889" height="590" alt="image" src="https://github.com/user-attachments/assets/48995fa0-89bd-4295-9933-a9ce60bc9b1e" />
+
+
 **Key work:**
 - Explored and visualized relationships between health indicators and heart disease.
 - Implemented Random Forest classifiers to compare feature importance across the Chinese and US datasets.
