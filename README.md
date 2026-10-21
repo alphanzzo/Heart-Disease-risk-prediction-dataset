@@ -14,7 +14,7 @@ An NTU IE0005 group data science project investigating differences in heart dise
 
 **Key finding:** Diabetes had the highest Random Forest feature importance in the US model (0.4129), while sex ranked highest in the China model (0.1751), narrowly ahead of diabetes (0.1735).
 
-**Run the notebook:** [Open in Google Colab](https://colab.research.google.com/drive/1A49CYe41S55z8qYimu0LKyIrccxSD7yn)
+**Run the notebook:** "Scroll down all the way to see the results and conclusion" [Open in Google Colab](https://colab.research.google.com/drive/1A49CYe41S55z8qYimu0LKyIrccxSD7yn)
 
 
 Dataset 1: Chinese data
